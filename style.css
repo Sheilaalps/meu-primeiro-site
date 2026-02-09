@@ -1,5 +1,7 @@
 .body {
-    background-color: #3d3b81;
+   background-color: #ffffff;
+    margin: 20px;
+    padding: 0;
 }
 .container {
     max-width: 800px;
@@ -113,9 +115,10 @@
     padding: 20px;
     background-color: #3d3b81;
     border-radius: 8px;
-    box-shadow: 0 0 10px #fff(252, 244, 244, 0.1);
     line-height: 1.6;
 }
+
+
 .container-4 h1 {
     font-family: "helvetica", sans-serif;
     color: #fff;
@@ -138,23 +141,29 @@
     padding: 20px;
     background-color: #3d3b81;
     border-radius: 8px;
-    box-shadow: 0 0 10px #fff(252, 244, 244, 0.1);
     line-height: 1.6;
 }
+
 .container-5 h1 {
     font-family: "helvetica", sans-serif;
     color: #fff;
     text-align: center;
-   
 }
+
+.container-5 p {
+    font-family: "helvetica", sans-serif;
+    color: #fff;
+}
+
 .container-6{
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #9c99f3;
-    border-radius: 8px;
-    box-shadow: 0 0 10px #fff(252, 244, 244, 0.1);
     line-height: 1.6;
+    border-radius: 8px;
+    
+
 }
 .aluno {
     font-family: Arial, Helvetica, sans-serif;
@@ -173,4 +182,3 @@
     color: #fff;
     text-align: left;
     line-height: 1,6;
-}
