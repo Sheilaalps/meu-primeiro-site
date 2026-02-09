@@ -144,6 +144,12 @@
     line-height: 1.6;
 }
 
+.container-5 h2 {
+    font-family: "helvetica", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
 .container-5 h1 {
     font-family: "helvetica", sans-serif;
     color: #fff;

@@ -85,7 +85,31 @@ Acessibilidade e Inclusão:</p>
 <div class="container-5">
     <h1>Qual é a Função do Docker?</h1>
     <p> O Docker tem uma função principal: padronizar o ambiente onde o seu código roda.Se o Git é a "máquina do tempo" do seu texto, o Docker é a "máquina de transporte" do seu sistema. Ele garante que o site que você está criando agora no seu PC funcione exatamente igual no servidor da Amazon, do Google ou no computador de um amigo, sem que ninguém precise instalar nada além do próprio Docker.Aqui estão as funções detalhadas:</p>
+<h2>Isolamento </h2>
+<p>A função mais básica é criar uma "caixa" isolada para sua aplicação.</p>
 
+<p>Sem Docker: Se você atualizar o seu computador, o seu site pode parar de funcionar porque uma biblioteca mudou.</p>
+
+<p>Com Docker: O site roda dentro de um container com a versão exata que você escolheu. Nada do que acontece "fora" (no seu Windows/Linux) afeta o que está "dentro".</p>
+
+<h2> Portabilidade (A função "Funciona em qualquer lugar")</h2>
+<p>O Docker empacota tudo: o código HTML/CSS, o servidor web (como Apache ou Nginx) e as configurações de segurança.</p>
+
+<p>Utilidade: Você gera uma Imagem. Essa imagem pode ser enviada para o GitHub ou Docker Hub e rodada em qualquer servidor do mundo com um único comando.</p>
+
+<h1>Eficiência de Recursos</h1>
+<p>Diferente de uma Máquina Virtual (VM), o Docker não emula um hardware inteiro.</p>
+
+<p>Função Técnica: Ele compartilha o "cérebro" (kernel) do sistema operacional do seu computador.</p>
+
+<p>Resultado: Você consegue rodar dezenas de containers no seu PC sem ele travar, enquanto duas VMs provavelmente deixariam tudo lento.</p>
+
+<h2>Como ele se encaixa no seu projeto?</h2>
+<p>Para esse seu site de Aspectos Legais, o Docker serviria para:</p>
+
+<p>Subir um servidor local: Em vez de usar a extensão "Live Server" do VS Code, você rodaria um container com um servidor real (como o Nginx).</p>
+
+<p>Hospedagem profissional: Quando você for colocar esse site "no ar" de verdade, a maioria das empresas modernas prefere que você envie um container Docker, pois é mais seguro e fácil de gerenciar.</p>
 </div>
 <div class="container-6">
     <div class="aluno">
